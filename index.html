@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link type="text/css" rel="stylesheet" href="static/css/fonts.css">
+
+    <style type="text/css">
+        .gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+    </style>
+    <style type="text/css">
+        @media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}
+        @media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
+    </style>
+    <style type="text/css">
+        .gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}
+        .gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+    </style>
+
+    <!-- Meta -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!-- Title -->
+    <title>Mi. - Ultimate Personal Resume vCard Template</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon/favicon.png">
+    <link rel="apple-touch-icon" href="favicon/favicon_60x60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/favicon_76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/favicon_120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/favicon_152x152.png">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet" type="text/css">
+
+    <!-- Google Web Fonts -->
+    <link href="static/css/css_003.css" rel="stylesheet" type="text/css">
+    <link href="static/css/css_002.css" rel="stylesheet" type="text/css">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="static/css/styles.css">
+
+    <!-- CSS Template -->
+    <link rel="stylesheet" href="static/css/theme.css">
+    <link rel="stylesheet" href="static/css/blue-beige.css" id="color">
+
+    <!-- Styleswitcher -->
+    <link rel="stylesheet" href="static/bad/styleswitcher.css">
+
+    <!-- my own custom css overrides -->
+    <link type="text/css" rel="stylesheet" href="static/css/custom.css">
+
+
+    <style type="text/css">
+        .fb_hidden{
+            position:absolute;
+            top:-10000px;z-index:10001
+        }
+        .fb_reposition{
+            overflow:hidden;
+            position:relative}
+        .fb_invisible{display:none}
+        .fb_reset{
+            background:none;border:0;border-spacing:0;color:#000;
+            cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+            font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;
+            line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;
+            text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;
+            word-spacing:normal}
+        .fb_reset>div{overflow:hidden}
+        .fb_link img{border:none}
+        @keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}
+
+        .fb_animate{animation:fb_transform .3s forwards}
+        .fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+        .fb_iframe_widget{display:inline-block;position:relative}
+        .fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}
+        .fb_iframe_widget iframe{position:absolute}
+        .fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}
+        .fb_iframe_widget_lift{z-index:1}
+        .fb_hide_iframes iframe{position:relative;left:-10000px}
+        .fb_iframe_widget_loader{position:relative;display:inline-block}
+        .fb_iframe_widget_fluid{display:inline}
+        .fb_iframe_widget_fluid span{width:100%}
+        .fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+        .fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+    </style>
+    <style type="text/css">
+        .gm-style {
+            font: 400 11px Roboto, Arial, sans-serif;
+            text-decoration: none;
+        }
+        .gm-style img { max-width: none; }
+    </style>
+
+    <script src="https://use.fontawesome.com/98591f29ce.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/themify-icons@1.0.0/index.min.js"></script>
+
+
+
+<body class="header-vertical  pace-done">
+
+<!-- Loader -->
+<div id="page-loader" class="bg-white" style="display: none;"><div class="pace  pace-inactive"><div class="pace-progress" style="transform: translate3d(100%, 0px, 0px);" data-progress-text="100%" data-progress="99">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div></div>
+<!-- Loader / End -->
+
+<!-- Header -->
+<header id="header" class="bg-white hidden-sm hidden-xs">
+
+    <!-- Photo -->
+    <div class="photo">
+        <img src="static/img/it-avatar.jpg" alt="...">
+    </div>
+
+    <!-- Navigation -->
+    <nav id="main-menu">
+        <ul class="nav nav-vertical">
+            <li><a href="#start" class="active"><span>Welcome</span></a></li>
+            <li><a href="#resume"><span>Resume</span></a></li>
+            <!-- <li><a href="#portfolio"><span>Portfolio</span></a></li>-->
+            <li><a href="#testimonials"><span>Testimonials</span></a></li>
+            <!-- <li><a href="#posts"><span>Latest Posts</span></a></li>-->
+            <li><a href="#contact"><span>Contact</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Social Media -->
+    <div class="social-media">
+        <strong class="text-sm">Follow me!</strong>
+        <ul class="list-inline margin-t-10">
+            <li><a href="https://github.com/liquidpele/" target="github" class="icon icon-xs"><i class="fa fa-github text-muted"></i></a></li>
+            <li><a href="https://stackoverflow.com/users/4496706/liquidpele" target="stackoverflow" class="icon icon-xs"><i class="fa fa-stack-overflow  text-muted"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/reece-pegues/" target="linkedin" class="icon icon-xs"><i class="fa fa-linkedin text-muted"></i></a></li>
+
+        </ul>
+    </div>
+
+</header>
+<!-- Header / End -->
+
+<!-- Content -->
+<div id="content" class="bg-white">
+
+    <!-- Section - Home -->
+    <section id="start" class="section fullheight bg-secondary dark padding-v-60">
+
+        <!-- BG Image -->
+        <div class="bg-image animated infinite zooming visible" style="background-image: url(&quot;assets/img/photos/it-bg01.jpg&quot;);"><img src="static/img/it-bg01.jpg" alt="..." style="display: none;"></div>
+
+        <!-- Top -->
+        <div class="container container-wide text-md">
+            <i class="icon-before fa fa-comments text-primary"></i>Have you got any questions? Write to me at <a href="#" class="text-primary">reece@pegues.org</a>
+        </div>
+
+        <!-- Middle -->
+        <div class="container container-wide v-bottom padding-v-80">
+            <h1 class="text-lg margin-b-0">Welcome! I’m <strong>Reece Pegues</strong></h1>
+            <h5 class="text-tertiary margin-b-40">Software/Systems Architect and Security Expert</h5>
+            <span data-target="local-scroll"><a href="#resume" class="btn btn-lg btn-primary animated bounceIn visible" data-animation="bounceIn"><span>Go to my resume!</span><i class="fa fa-arrow-down"></i></a></span>
+            <a href="resume.pdf" target="resume" class="btn btn-link"><span>Download my CV</span><i class="fa fa-file"></i></a>
+        </div>
+        
+    </section>
+    <!-- Section - Home / End -->
+
+    <!-- Section - Resume -->
+    <section id="resume" class="section padding-v-60">
+
+        <!-- Content -->
+        <div class="container container-wide">
+
+            <h6 class="margin-b-50">Resume</h6>
+            
+            <div class="row padding-lg">
+                <div class="col-md-4 col-sm-6 col-xs-12">
+
+                    <!-- Resume Box / About -->
+                    <div class="resume-box">
+                        <span class="icon animated" data-animation="fadeInDown"><i class="fa fa-comment text-tertiary"></i></span>
+                        <h4><strong>About</strong> Me</h4>
+                        <p class="lead">
+                            A native Georgian, I've been involved in the Atlanta software and security communities for over a decade.
+                        </p>
+                        <p>
+                            I love to dig into new projects and improve them or invent my own!  Whether it's a SaaS offering for
+                            an employer or my own custom roku channel in my own house, you can be sure that it will be
+                            designed well and secure!
+                        </p>
+                    </div>
+
+                    <!-- Resume Box / Specilities -->
+                    <div class="resume-box">
+                        <span class="icon animated" data-animation="fadeInDown"><i class="fa fa-laptop text-tertiary"></i></span>
+                        <h4>My <strong>Specialities</strong></h4>
+                        <!-- Speciality -->
+                        <div class="speciality">
+                            <span class="speciality-icon"><i class="text-muted-2x fa fa-desktop"></i></span>
+                            <div class="speciality-content">
+                                <h5 class="margin-b-0">Web Applications</h5>
+                                <p class="speciaity-description">Angular, React, Django, etc</p>
+                            </div>
+                        </div>
+                        <!-- Speciality -->
+                        <div class="speciality">
+                            <span class="speciality-icon"><i class="text-muted-2x fa fa-lock"></i></span>
+                            <div class="speciality-content">
+                                <h5 class="margin-b-0">Security</h5>
+                                <p class="speciaity-description">Code Analysis, Scanning, and Best Practices</p>
+                            </div>
+                        </div>
+                        <!-- Speciality -->
+                        <div class="speciality">
+                            <span class="speciality-icon"><i class="text-muted-2x fa fa-cloud"></i></span>
+                            <div class="speciality-content">
+                                <h5 class="margin-b-0">Systems Architecture</h5>
+                                <p class="speciaity-description">Build Systems, OS Architecture, Cloud Platforms, etc</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+
+                    <!-- Resume Box / Education and Jobs -->
+                    <div class="resume-box">
+                        <span class="icon animated" data-animation="fadeInDown"><i class="fa fa-calendar text-tertiary"></i></span>
+                        <h4><strong>Education</strong> &amp; jobs</h4>
+                        <div class="timeline">
+                            <!-- Single event -->
+                            <div class="timeline-event te-primary">
+                                <span class="event-date">Graduated 2006</span>
+                                <span class="event-name">BS in Computer Engineering</span>
+                                <span class="event-description">Georgia Institute of Technology</span>
+                            </div>
+                            <!-- Single event -->
+                            <div class="timeline-event te-primary">
+                                <span class="event-date">2003 - 2006</span>
+                                <span class="event-name">Software Engineer</span>
+                                <span class="event-description">CoCard OnLine Payment Systems</span>
+                            </div>
+                            <!-- Single event -->
+                            <div class="timeline-event te-primary">
+                                <span class="event-date">2006 - 2010</span>
+                                <span class="event-name">Staff Software Engineer</span>
+                                <span class="event-description">IBM - Internet Security Systems</span>
+                            </div>
+                            <!-- Single event -->
+                            <div class="timeline-event te-primary">
+                                <span class="event-date">2010 - 2018</span>
+                                <span class="event-name">Senior Software Engineer</span>
+                                <span class="event-description">Tripwire</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <!-- Resume Box / Skills -->
+                    <div class="resume-box">
+                        <span class="icon animated" data-animation="fadeInDown"><i class="fa fa-trophy text-tertiary"></i></span>
+                        <h4><strong>Skills</strong> &amp; abilities</h4>
+                        <!-- Skill -->
+                        <div class="skill">
+                            <div class="progress progress-animated">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <strong>Python/Django Web Applications</strong>
+                        </div>
+                        <!-- Skill -->
+                        <div class="skill">
+                            <div class="progress progress-animated">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <strong>C/C++ Services</strong>
+                        </div>
+                        <!-- Skill -->
+                        <div class="skill">
+                            <div class="progress progress-animated">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <strong>AngularJS / React</strong>
+                        </div>
+                        <div class="skill">
+                            <div class="progress progress-animated">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <strong>Cloud Architecture (AWS, Azure, Google Cloud)</strong>
+                        </div>
+                        <div class="skill">
+                            <div class="progress progress-animated">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <strong>Linux Administration</strong>
+                        </div>
+                        <div class="skill">
+                            <div class="progress progress-animated">
+                                <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                    <span></span>
+                                </div>
+                            </div>
+                            <strong>Database Architecture / SQL</strong>
+                        </div>
+                    </div>
+
+                    <!-- Resume Box / Hobbies -->
+                    <div class="resume-box">
+                        <span class="icon animated" data-animation="fadeInDown"><i class="fa fa-gamepad text-tertiary"></i></span>
+                        <h4><strong>Hobbies</strong> &amp; Interests</h4>
+                            <ul class="list-inline">
+                                <li>
+                                    <div class="icon-box text-center">
+                                        <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="fa fa-futbol-o"></i></span>
+                                        <span class="title">Soccer</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-box text-center">
+                                        <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="fa fa-gamepad"></i></span>
+                                        <span class="title">Games</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-box text-center">
+                                        <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="fa fa-tree"></i></span>
+                                        <span class="title">Camping</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon-box text-center">
+                                        <span class="icon icon-sm icon-circle icon-primary icon-filled"><i class="fa fa-paw"></i></span>
+                                        <span class="title">Dogs</span>
+                                    </div>
+                                </li>
+                            </ul>
+                    </div>
+
+                </div>
+            </div>     
+
+        </div>
+        
+    </section>
+    <!-- Section - Resume / End -->
+    
+    <!-- Section - Portfolio -->
+    <section id="portfolio" class="section bg-grey padding-v-60" style="display: none;">
+
+        <!-- Content -->
+        <div class="container container-wide">
+
+            <h6 class="margin-b-50">Portfolio</h6>
+
+            <!-- Filters -->
+            <nav class="text-center">
+                <ul class="nav nav-filter nav-pills margin-b-40" data-filter-grid="#portfolio-list">
+                    <li class="active"><a href="#" data-filter="*">All</a></li>
+                    <li><a href="#" data-filter=".cloud">SaaS</a></li>
+                    <li><a href="#" data-filter=".application">Application</a></li>
+                    <li><a href="#" data-filter=".security">Security</a></li>
+                    <li><a href="#" data-filter=".database">Database</a></li>
+                </ul>
+            </nav>
+            
+            <div id="portfolio-list" class="row masonry" style="position: relative; height: 789.467px;">
+                <!-- Masonry Sizer -->
+                <div class="masonry-sizer col-lg-3 col-sm-6 col-xs-12"></div>    
+
+                <!-- Masonry Element -->
+                <div class="cloud masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12" style="position: absolute; left: 0%; top: 0px;">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="projects/purecloud.html" data-target="ajax-modal"><img src="static/img/project-square01.jpg2" alt=""></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="projects/purecloud.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-info-circle"></i></a>
+                                    <a href="https://www.tripwire.com/products/tripwire-purecloud/" target="_purecloud" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="projects/purecloud.html" class="title">PureCloud</a>
+                            <span class="caption text-muted">SaaS Vulnerability Scanning</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Masonry Element -->
+                <div class="security masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12" style="position: absolute; left: 49.9412%; top: 0px;">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal"><img src="static/img/project-square02.jpg" alt=""></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
+                                    <a href="http://www.suelo.pl/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" class="title">thing 2</a>
+                            <span class="caption text-muted">Mockups</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Masonry Element -->
+                <div class="application masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12" style="position: absolute; left: 49.9412%; top: 0px;">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal"><img src="static/img/project-square02.jpg" alt=""></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
+                                    <a href="http://www.suelo.pl/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" class="title">thing 3</a>
+                            <span class="caption text-muted">Mockups</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Masonry Element -->
+                <div class="database masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12" style="position: absolute; left: 74.9652%; top: 0px;">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal"><img src="static/img/project-vertical01.jpg" alt=""></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
+                                    <a href="http://www.suelo.pl/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" class="title">thing 4</a>
+                            <span class="caption text-muted">Mockups</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Masonry Element -->
+                <div class="cloud masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12" style="position: absolute; left: 49.9412%; top: 304px;">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal"><img src="static/img/project-vertical02.jpg" alt=""></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
+                                    <a href="http://www.suelo.pl/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" class="title">thing 5</a>
+                            <span class="caption text-muted">Mockups</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Masonry Element -->
+                <div class="security masonry-item margin-b-30 col-lg-6 col-sm-12 col-xs-12" style="position: absolute; left: 0%; top: 487px;">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal"><img src="static/img/project-horizontal01.jpg" alt=""></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
+                                    <a href="http://www.suelo.pl/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" class="title">thing 6</a>
+                            <span class="caption text-muted">Mockups</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Masonry Element -->
+                <div class="database masonry-item margin-b-30 col-lg-3 col-sm-6 col-xs-12" style="position: absolute; left: 74.9652%; top: 477px;">
+                    <div class="gallery-item">
+                        <div class="item-photo">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal"><img src="static/img/project-square03.jpg" alt=""></a>
+                            <div class="item-hover bg-dark dark">
+                                <div class="item-hover-content">
+                                    <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" data-target="ajax-modal" class="icon icon-sm icon-hover icon-circle icon-primary"><i class="fa fa-link"></i></a>
+                                    <a href="http://www.suelo.pl/" target="_blank" class="icon icon-sm icon-circle icon-white icon-hover"><i class="fa fa-play"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-title">
+                            <a href="http://themes.suelo.pl/mi/projects/project-example-it.html" class="title">thing 7</a>
+                            <span class="caption text-muted">Mockups</span>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+
+        </div>
+        
+    </section>
+    <!-- Section - Portfolio / End -->
+
+    <!-- Section - Testimonials -->
+    <section id="testimonials" class="section bg-primary dark padding-v-60">
+
+        <!-- Content -->
+        <div class="container container-wide">
+
+            <h6 class="margin-b-50">Testimonials</h6>
+
+            <h1 class="margin-b-0">Over <strong>10</strong> years of experience!</h1>
+            <h5 class="text-muted margin-b-60">Performing excellence at every chance!</h5>
+            
+            <div class="row padding-lg">
+                
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Testimonial -->
+                    <div class="testimonial testimonial-dark">
+                      <div class="testimonial-content font-alt">
+                          While at CoCard, Reece helped us design our own custom client database and messaging system, allowing us
+                          to track clients through our sales pipeline, pre-fill PDF forms with existing database information,
+                          and emailing customers with a custom email distribution system.
+                          <br><br>
+                          Reece was also able to wear many different hats, performing other job roles such as
+                          administrating our web servers and email systems, modernizing our development processes, and
+                          managing our outsource development team.
+                      </div>
+                      <div class="testimonial-author testimonial-with-photo">
+                          <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="static/img/testimonial-avatar01.jpg" alt=""></div>
+                          <div class="testimonial-author-txt">
+                              <span class="name">Rick Jernigan</span>
+                              <span class="caption text-secondary">CoCard Online Payment Systems</span>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Testimonial -->
+                    <div class="testimonial testimonial-dark">
+                        <div class="testimonial-content font-alt">
+                            Reece primarily worked on SiteProtector, our
+                            data collection and reporting platform, specializing in MS SQL Server database
+                            design and performance.
+                            <br><br>
+                            He also took the initiative to develop an internal
+                            search engine and knowledgebase utilizing Apache Solr, database warehousing,
+                            and customized ETL scripts which increased employee performance across our
+                            customer-facing departments.
+                        </div>
+                        <div class="testimonial-author testimonial-with-photo">
+                            <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="static/img/testimonial-avatar02.jpg" alt=""></div>
+                            <div class="testimonial-author-txt">
+                                <span class="name">Tom Tauchert</span>
+                                <span class="caption text-secondary">IBM Internet Security Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Testimonial -->
+                    <div class="testimonial testimonial-dark">
+                      <div class="testimonial-content font-alt">
+                          At Tripwire, Reece worked on several different security products including PureCloud, our
+                          SaaS vulnerability scanning platform, IP360, our vulnerability scanning appliance,
+                          and SIH, our data warehouse and reporting application.
+                          <br><br>
+                          In addition he excelled at many senior engineering roles, such as helping to train and mentor
+                          new junior engineers, interviewing, and overall product architecture design.
+                      </div>
+                      <div class="testimonial-author testimonial-with-photo">
+                          <div class="testimonial-photo animated" data-animation="zoomIn"><img class="img-circle" src="static/img/testimonial-avatar04.jpg" alt=""></div>
+                          <div class="testimonial-author-txt">
+                              <span class="name">Lamar Bailey</span>
+                              <span class="caption text-secondary">Tripwire</span>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>  
+
+        </div>
+        
+    </section>
+    <!-- Section - Testimonials / End -->
+
+    <!-- Section - Latest Posts -->
+    
+    <section  style="display:none;" id="posts" class="section bg-grey padding-v-60">
+
+        <!-- Content -->
+        <div class="container container-wide">
+
+            <h6 class="margin-b-50">Latest Posts</h6>
+            
+            <div class="row masonry" style="position: relative; height: 1283.08px;">
+                <!-- Masonry Sizer -->
+                <div class="masonry-sizer col-lg-4 col-sm-6 col-xs-12"></div>    
+                <!-- Masonry Element / Post -->
+                <article class="post post-item masonry-item col-lg-4 col-sm-6 col-xs-12" style="position: absolute; left: 0%; top: 0px;">
+                    <div class="post-photo">
+                        <img src="static/img/post01.jpg" alt="...">
+                    </div>
+                    <div class="post-content animated" data-animation="fadeInUp">
+                        <div class="meta">
+                            <span><i class="fa fa-comment"></i><a href="#">4</a></span>
+                            <span><i class="fa fa-user"></i><a href="#">John Doe</a></span>
+                            <span><i class="fa fa-tag"></i><a href="#">Webdevelopment</a></span>
+                        </div>
+                        <div class="date">22 May, 2014</div>
+                        <h1><a href="#">Awesome Seattle Cycle Trip</a></h1>
+                        <p class="lead">Per sint eirmod expetenda te. Pro ne essent.</p>
+                        <p>Per ea tibique fabellas electram. Ea aliquam corpora vis. Ne quot civibus atomorum quo. </p>
+                        <a href="http://themes.suelo.pl/mi/blog-post-vertical.html" class="btn btn-primary btn-xs"><span>Read more</span><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- Masonry Element / Post -->
+                <article class="post post-item masonry-item col-lg-4 col-sm-6 col-xs-12" style="position: absolute; left: 33.2585%; top: 0px;">
+                    <div class="post-content animated" data-animation="fadeInUp">
+                        <div class="meta">
+                            <span><i class="fa fa-comment"></i><a href="#">4</a></span>
+                            <span><i class="fa fa-user"></i><a href="#">John Doe</a></span>
+                            <span><i class="fa fa-tag"></i><a href="#">Webdesign</a></span>
+                        </div>
+                        <div class="date">22 May, 2014</div>
+                        <h1><a href="#">Awesome Seattle Cycle Trip</a></h1>
+                        <p class="lead">Per sint eirmod expetenda te. Pro ne essent.</p>
+                        <p>Per ea tibique fabellas electram. Ea aliquam corpora vis. Ne quot civibus atomorum quo. </p>
+                        <a href="http://themes.suelo.pl/mi/blog-post-vertical.html" class="btn btn-primary btn-xs"><span>Read more</span><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- Masonry Element / Post -->
+                <article class="post post-item masonry-item col-lg-4 col-sm-6 col-xs-12" style="position: absolute; left: 66.6239%; top: 0px;">
+                    <div class="post-photo">
+                        <img src="static/img/post02.jpg" alt="...">
+                    </div>
+                    <div class="post-content animated" data-animation="fadeInUp">
+                        <div class="meta">
+                            <span><i class="fa fa-comment"></i><a href="#">4</a></span>
+                            <span><i class="fa fa-user"></i><a href="#">John Doe</a></span>
+                            <span><i class="fa fa-tag"></i><a href="#">Front-End Development</a></span>
+                        </div>
+                        <div class="date">22 May, 2014</div>
+                        <h1><a href="#">Awesome Seattle Cycle Trip</a></h1>
+                        <p class="lead">Per sint eirmod expetenda te. Pro ne essent.</p>
+                        <p>Per ea tibique fabellas electram. Ea aliquam corpora vis. Ne quot civibus atomorum quo. </p>
+                        <a href="http://themes.suelo.pl/mi/blog-post-vertical.html" class="btn btn-primary btn-xs"><span>Read more</span><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                <!-- Masonry Element / Post -->
+                <article class="post post-item masonry-item col-lg-4 col-sm-6 col-xs-12" style="position: absolute; left: 33.2585%; top: 556px;">
+                    <div class="post-photo">
+                        <img src="static/img/post03.jpg" alt="...">
+                    </div>
+                    <div class="post-content animated" data-animation="fadeInUp">
+                        <div class="meta">
+                            <span><i class="fa fa-comment"></i><a href="#">4</a></span>
+                            <span><i class="fa fa-user"></i><a href="#">John Doe</a></span>
+                            <span><i class="fa fa-tag"></i><a href="#">Webdevelopment</a></span>
+                        </div>
+                        <div class="date">22 May, 2014</div>
+                        <h1><a href="#">Awesome Seattle Cycle Trip</a></h1>
+                        <p class="lead">Per sint eirmod expetenda te. Pro ne essent.</p>
+                        <p>Per ea tibique fabellas electram. Ea aliquam corpora vis. Ne quot civibus atomorum quo. </p>
+                        <a href="http://themes.suelo.pl/mi/blog-post-vertical.html" class="btn btn-primary btn-xs"><span>Read more</span><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>  
+
+        </div>
+        
+    </section>
+    <!-- Section - Latest Posts / End -->
+
+    <!-- Section - Contact -->
+    <section id="contact" class="section padding-v-60 min-fullheight">
+
+        <!-- BG Map -->
+        <div id="google-map" class="bg-image" data-latitude="40.758895" data-longitude="-73.985131" data-style="light" style="background-image: url(&quot;undefined&quot;); overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;" class="gm-style"><div style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default;" tabindex="0"><div style="z-index: 1; position: absolute; top: 0px; left: 0px; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;" aria-hidden="true"><div style="width: 256px; height: 256px; position: absolute; left: 534px; top: 65px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 534px; top: 321px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 278px; top: 65px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 278px; top: 321px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 790px; top: 65px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 790px; top: 321px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 534px; top: -191px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 534px; top: 577px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 278px; top: -191px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 278px; top: 577px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 790px; top: -191px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 790px; top: 577px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 22px; top: 65px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 22px; top: 321px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1046px; top: 65px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1046px; top: 321px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 22px; top: -191px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 22px; top: 577px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1046px; top: -191px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1046px; top: 577px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -234px; top: 65px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -234px; top: 321px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1302px; top: 65px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1302px; top: 321px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -234px; top: -191px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -234px; top: 577px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1302px; top: -191px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 1302px; top: 577px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;" aria-hidden="true"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 534px; top: 65px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 534px; top: 321px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 278px; top: 65px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 278px; top: 321px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 790px; top: 65px;"><canvas draggable="false" style="-moz-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" height="512" width="512"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 790px; top: 321px;"><canvas draggable="false" style="-moz-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" height="512" width="512"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 534px; top: -191px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 534px; top: 577px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 278px; top: -191px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 278px; top: 577px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 790px; top: -191px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 790px; top: 577px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 22px; top: 65px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 22px; top: 321px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1046px; top: 65px;"><canvas draggable="false" style="-moz-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" height="512" width="512"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1046px; top: 321px;"><canvas draggable="false" style="-moz-user-select: none; position: absolute; left: 0px; top: 0px; height: 256px; width: 256px;" height="512" width="512"></canvas></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 22px; top: -191px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 22px; top: 577px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1046px; top: -191px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1046px; top: 577px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -234px; top: 65px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -234px; top: 321px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1302px; top: 65px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1302px; top: 321px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -234px; top: -191px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -234px; top: 577px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1302px; top: -191px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 1302px; top: 577px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; left: 0px; top: 0px; z-index: 1; visibility: inherit;" aria-hidden="true"><div style="position: absolute; left: 534px; top: 577px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_021.png"></div><div style="position: absolute; left: 534px; top: 321px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_026.png"></div><div style="position: absolute; left: 278px; top: -191px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_025.png"></div><div style="position: absolute; left: 790px; top: 321px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_015.png"></div><div style="position: absolute; left: 534px; top: -191px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_013.png"></div><div style="position: absolute; left: 790px; top: -191px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_017.png"></div><div style="position: absolute; left: 278px; top: 577px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_028.png"></div><div style="position: absolute; left: 1302px; top: 321px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_016.png"></div><div style="position: absolute; left: 1046px; top: 577px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_005.png"></div><div style="position: absolute; left: 1046px; top: 321px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_009.png"></div><div style="position: absolute; left: 1302px; top: 65px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_023.png"></div><div style="position: absolute; left: 1046px; top: -191px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_003.png"></div><div style="position: absolute; left: 278px; top: 65px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_027.png"></div><div style="position: absolute; left: 1046px; top: 65px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_024.png"></div><div style="position: absolute; left: 790px; top: 577px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_004.png"></div><div style="position: absolute; left: 278px; top: 321px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_020.png"></div><div style="position: absolute; left: 534px; top: 65px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_011.png"></div><div style="position: absolute; left: -234px; top: -191px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_022.png"></div><div style="position: absolute; left: -234px; top: 65px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt.png"></div><div style="position: absolute; left: 22px; top: 321px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_006.png"></div><div style="position: absolute; left: -234px; top: 321px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_010.png"></div><div style="position: absolute; left: 22px; top: -191px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/img/vt_002.png"></div><div style="position: absolute; left: 790px; top: 65px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_008.png"></div><div style="position: absolute; left: -234px; top: 577px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_014.png"></div><div style="position: absolute; left: 22px; top: 65px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_007.png"></div><div style="position: absolute; left: 1302px; top: 577px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_019.png"></div><div style="position: absolute; left: 22px; top: 577px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_018.png"></div><div style="position: absolute; left: 1302px; top: -191px; transition: opacity 200ms ease-out 0s;"><img style="width: 256px; height: 256px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" draggable="false" alt="" src="static/bad/vt_012.png"></div></div></div></div><div style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;" class="gm-style-pbc"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"><div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div></div><div style="z-index: 4; position: absolute; top: 0px; left: 0px; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a style="position: static; overflow: visible; float: none; display: inline;" target="_blank" href="https://maps.google.com/maps?ll=40.758895,-74.015131&amp;z=14&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps"><div style="width: 66px; height: 26px; cursor: pointer;"><img style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;" alt="" src="static/img/google_white5_hdpi.png" draggable="false"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto,Arial,sans-serif; color: rgb(34, 34, 34); box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.2); z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 510px; top: 309px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2017 Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="static/img/mapcnt6.png" draggable="false"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 166px; bottom: 0px; width: 121px;"><div draggable="false" style="-moz-user-select: none; height: 14px; line-height: 14px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="color: rgb(68, 68, 68); text-decoration: none; cursor: pointer; display: none;">Map Data</a><span style="">Map data ©2017 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto,Arial,sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2017 Google</div></div><div class="gmnoprint gm-style-cc" style="z-index: 1000001; -moz-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 95px; bottom: 0px;" draggable="false"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);" href="https://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank">Terms of Use</a></div></div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; border: 0px none; margin: 10px 14px; padding: 0px; position: absolute; cursor: pointer; -moz-user-select: none; width: 25px; height: 25px; overflow: hidden; top: 0px; right: 0px;" draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button"><img style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px;" alt="" src="static/img/sv9.png" draggable="false" class="gm-fullscreen-control"></button><div draggable="false" style="-moz-user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;" class="gm-style-cc"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_new" title="Report errors in the road map or imagery to Google" style="font-family: Roboto,Arial,sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;" href="https://www.google.com/maps/@40.758895,-74.015131,14z/data=%2110m1%211e1%2112b1?source=apiv3&amp;rapsrc=apiv3">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" style="margin: 10px; -moz-user-select: none; position: absolute; bottom: 69px; right: 28px;" draggable="false" controlwidth="28" controlheight="55"><div class="gmnoprint" style="position: absolute; left: 0px; top: 0px;" controlwidth="28" controlheight="55"><div draggable="false" style="-moz-user-select: none; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;"><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: relative; cursor: pointer; -moz-user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;" draggable="false" title="Zoom in" aria-label="Zoom in" type="button"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img style="position: absolute; left: 0px; top: 0px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;" alt="" src="static/img/tmapctrl_hdpi.png" draggable="false"></div></button><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><button style="background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; display: block; border: 0px none; margin: 0px; padding: 0px; position: relative; cursor: pointer; -moz-user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;" draggable="false" title="Zoom out" aria-label="Zoom out" type="button"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img style="position: absolute; left: 0px; top: -15px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;" alt="" src="static/img/tmapctrl_hdpi.png" draggable="false"></div></button></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); cursor: pointer; background-color: rgb(255, 255, 255); display: none;" title="Rotate map 90 degrees"><img style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="static/img/tmapctrl4_hdpi.png" draggable="false"></div><div style="width: 28px; height: 28px; overflow: hidden; position: absolute; border-radius: 2px; box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3); top: 0px; cursor: pointer; background-color: rgb(255, 255, 255);" class="gm-tilt"><img style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; -moz-user-select: none; border: 0px none; padding: 0px; margin: 0px; max-width: none;" alt="" src="static/img/tmapctrl4_hdpi.png" draggable="false"></div></div></div></div></div></div>
+
+        <!-- Contact Box -->
+        <div class="contact-box bg-secondary dark animated" data-animation="flipInY">
+            <h1>Don’t hesitate to <strong>contact me</strong>!</h1>
+            <!-- Contact List -->
+            <ul class="list-unstyled list-unstyled-icons">
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-map-marker"></i>OTP North, Atlanta GA</li>
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-comment"></i><a href="mailto:reece@pegues.org">reece@pegues.org</a></li>
+                <li><i class="inline-icon icon-before-and-after text-primary fa fa-phone"></i>404.654.0035</li>
+            </ul>
+            <a href="#" class="btn btn-primary" data-target="messenger"><span>Use Contact Form</span><i class="fa fa-evenlope-o"></i></a>
+            <h5 class="margin-t-60">Check me out online!</h5>
+            <ul class="list-inline">
+                <li><a href="https://github.com/liquidpele/" target="github" class="icon icon-sm"><i class="fa fa-github text-muted"></i></a></li>
+                <li><a href="https://stackoverflow.com/users/4496706/liquidpele" target="stackoverflow" class="icon icon-sm"><i class="fa fa-stack-overflow  text-muted"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/reece-pegues/" target="linkedin" class="icon icon-sm"><i class="fa fa-linkedin text-muted"></i></a></li>
+            </ul>
+        </div>
+
+    </section>
+    <!-- Section - Contact / End -->
+
+</div>
+<!-- Content / End -->
+
+<!-- Messanger -->
+<a href="#" id="messenger-toggle" data-target="messenger" class="icon icon-sm icon-circle animated bounceIn visible" data-animation="bounceIn" data-animation-delay="300"><i class="fa fa-comments"></i></a>
+<div id="messenger" class="dark">
+    <div id="messenger-box">
+        <div class="messenger-box-content">
+            <!-- Close -->
+            <a href="#" class="messenger-close icon icon-hover icon-xs icon-circle icon-white" data-target="messenger"><i class="fa fa-times"></i></a>
+            <!-- Avatar -->
+            <img src="static/img/it-avatar-96x96.jpg" alt="..." class="img-circle margin-b-30" style="visibility:hidden">
+            <h3>Please fill the <strong>form</strong> - I will response as fast as I can!</h3>
+            <!-- Contact Form -->
+            <form id="contact-form" novalidate="novalidate">
+                <div class="form-alert"></div>
+                <div class="form-error alert alert-default"><ul></ul></div>
+                <div class="form-group">
+                    <label>Name:</label>
+                    <input id="name" class="form-control" name="name" type="text">
+                </div>
+                <div class="form-group">
+                    <label>Addres e-mail:</label>
+                    <input id="email" class="form-control" name="email" type="text">
+                </div>
+                <div class="form-group">
+                    <label>Message:</label>
+                    <textarea id="message" class="form-control" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary"><span>Send a message!</span><i class="fa fa-envelope-o"></i></button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Mobile Navigation -->
+<a href="#" id="mobile-nav-toggle" class="icon icon-circle icon-sm icon-primary icon-hover visible-xs visible-sm" data-target="mobile-nav">
+    <i class="fa fa-align-justify"></i>
+</a>
+<nav id="mobile-nav" class="bg-white">
+    <div class="mobile-nav-wrapper">
+        <!-- Avatar -->
+        <img src="static/img/it-avatar-96x96.jpg" alt="..." class="img-circle margin-b-30">
+        <!-- Nav -->
+        <ul class="nav nav-vertical">
+            <li><a href="#start" class="active"><span>Welcome</span></a></li>
+            <li><a href="#resume"><span>Resume</span></a></li>
+            <!-- <li><a href="#portfolio"><span>Portfolio</span></a></li>-->
+            <li><a href="#testimonials"><span>Testimonials</span></a></li>
+            <!--<li><a href="#posts"><span>Latest Posts</span></a></li>-->
+            <li><a href="#contact"><span>Contact</span></a></li>
+        </ul>
+        <!-- Social Media -->
+        <div class="margin-t-20">
+            <strong class="text-sm">Follow me!</strong>
+            <ul class="list-inline margin-t-10">
+                <li><a href="https://github.com/liquidpele/" target="github"  class="icon icon-xs"><i class="fa fa-github text-muted"></i></a></li>
+                <li><a href="https://stackoverflow.com/users/4496706/liquidpele" target="stackoverflow" class="icon icon-xs"><i class="fa fa-stack-overflow  text-muted"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/reece-pegues/" target="linkedin" class="icon icon-xs"><i class="fa fa-linkedin text-muted"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <a href="#" class="mobile-nav-close icon icon-hover icon-xs icon-circle icon-primary" data-target="mobile-nav"><i class="fa fa-times"></i></a>
+</nav>
+
+<!-- Ajax Wrapper & Loader -->
+<div id="ajax-modal"></div>
+<div id="ajax-loader"><i class="fa fa-spinner fa-spin"></i></div>
+
+<!-- JS Libraries -->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+
+<!-- JS Plugins -->
+<script>
+window.paceOptions = {
+    target: '#page-loader',
+    ajax: false
+};
+</script>
+<script src="static/js/plugins.js"></script>
+<script src="static/js/core.js"></script>
+
+<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
+<!--
+<script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+-->
