@@ -469,10 +469,7 @@ var Mi = {
                     url: "/email/",
                     data: $(this).serialize(),
                     success: function(t) {
-                        a = "SEND" === t ? '<div class="alert alert-success">Done! Thank you for your message - You will get an answer as soon as possible.' : '<div class="alert alert-danger">Ooops... It seems that we have a problem.', e.html(a), e.show()
-                    },
-                    error: function() {
-                        e.show().text('Failed to send email');  
+                        a = !t.error ? '<div class="alert alert-success">Done! Thank you for your message - You will get an answer as soon as possible.' : '<div class="alert alert-danger">Ooops... It seems that we have a problem.', e.html(a), e.show()
                     }
                 }), !1) : !1
             })
