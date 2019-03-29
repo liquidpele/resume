@@ -462,6 +462,7 @@ var Mi = {
                     }
                 }
             }), o.submit(function() {
+                o.find('button').attr("disabled", true);
                 e = $(this).find(".form-alert"), t = $(this).find(".form-error");
                 var a;
                 return e.hide().html(), o.valid() ? ($.ajax({
