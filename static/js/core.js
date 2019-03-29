@@ -466,10 +466,13 @@ var Mi = {
                 var a;
                 return e.hide().html(), o.valid() ? ($.ajax({
                     type: "POST",
-                    url: "assets/php/contact-form.php",
+                    url: "/email/",
                     data: $(this).serialize(),
                     success: function(t) {
                         a = "SEND" === t ? '<div class="alert alert-success">Done! Thank you for your message - You will get an answer as soon as possible.' : '<div class="alert alert-danger">Ooops... It seems that we have a problem.', e.html(a), e.show()
+                    },
+                    error: function() {
+                        e.show().text('Failed to send email');  
                     }
                 }), !1) : !1
             })
